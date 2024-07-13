@@ -1,0 +1,258 @@
+
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+} */
+
+body {
+    margin: 0;
+    background-color: #639;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+input[type="text"], input[type="email"] {
+    margin-bottom: 15px;
+    height: 30px;
+    text-indent: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.75rem;
+}
+
+textarea {
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+
+.form-container {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+.form--input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form--submit {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: none;   
+    cursor: pointer; 
+}
+
+.form--marketing {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form--marketing > input {
+    margin-right: 10px;
+}
+
+/* .ab--photo{
+    width: 50%;    
+  border-radius: 8px; 
+  
+  margin-left: 50px;
+  border-radius: 8px; 
+} */
+
+.top--first{
+    /* background: #4a4a52; */
+    flex: 1;
+    display: inline-block;
+}
+
+.inline-container h1 p {
+    display: inline-block;
+}
+
+.skills{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.one{
+    /* background-color: rgb(255, 255, 255) ; */
+    /* background-color: #639; */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.two{
+    /* background-color: rgb(167, 185, 38); */
+    margin-left: 50px;
+}
+  
+.three{
+    
+    /* background-color: rgb(53, 139, 225); */
+}   
+
+.zero {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image--card{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.testimonial--text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Jaini Purva ';
+}
+
+p.thick {
+    font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
+  }
+
+.testimonial--star {
+    height: 35px;
+}
+
+.testimonial--div{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-div{
+    background-color: #639;
+    /* width: 100%; */
+
+    display: flex;
+    align-items: center;
+    justify-Content: 'center';
+    /* height:max-content; */
+    /* border: '1px solid black'; */
+    padding-top: 5%;
+    padding-bottom: 15%;
+    
+}
+
+.footer-div{
+    background-color: rgb(54, 42, 66);
+    display: flex;
+    align-items: center;
+    display: 'flex';
+    justify-Content: 'center';
+    height:max-content;
+    border: '1px solid black';
+    padding-top: 5%;
+    padding-bottom: 15%;
+    
+}
+
+.contact-Text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Jaini Purva ';
+}
+
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 'green';
+    color: 'white';
+    padding: '10px 20px';
+    border-radius: '4px'; 
+  }
+  
+.image--card{
+    height: 500px;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.contact-popup-div{
+    /* background-color: #639; */
+    /* width: 100%; */
+
+    display: flex;
+    align-items: center;
+    display: 'flex';
+    justify-Content: 'center';
+    height:max-content;
+}
+
+.skills{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.skills2{
+    display: flex;
+    text-align: right;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 60px;
+
+}
+
+.image--contact{
+    height: 35px;
+    max-width: 35px;
+}
+
+.image--contact2{
+    height: 35px;
+    max-width: 55px;
+}

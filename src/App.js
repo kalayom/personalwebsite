@@ -1,0 +1,47 @@
+// airbnb
+import React from "react"
+import Navbar from "./components/Navbar"
+import Top from "./components/Top"
+import Footer from "./components/Footer.js"
+import Testimonial from "./components/Testimonial"
+import Featuerd_work from "./components/Featuerd_work"
+import Card from "./components/Card" 
+import Auto_scroll from "./components/Auto_scroll"
+import data from "./data.js" 
+import Contact from "./components/Contact" 
+
+export default function App() {
+    
+    
+    return (
+        <div>
+            <div className="page-content">
+				<Navbar />
+                <Top />
+				<div className="content-wrapper">
+                
+                        <div className="homepage-container">
+                            {/* <Test /> */}
+                            <h4 className="skills"> I am Proficient in </h4> 
+                            <Auto_scroll />
+                            {/* <Card_base /> */}
+                            <h4 className="skills2"> Featured Website Projects </h4> 
+                            <Featuerd_work />
+                            <h4 className="skills2"> Clients Testimonials </h4> 
+                            <Testimonial />
+                            
+                            </div>
+                           
+            </div>
+            
+            
+             <Contact />
+        
+            
+        
+        </div>
+        <Footer />
+        </div>
+    )
+}
+
