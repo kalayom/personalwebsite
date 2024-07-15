@@ -23,7 +23,7 @@ export default function Top() {
     }, []);
 
     
-    return (
+    return ( 
             <Row className="one" >
             {/* <Row className="one" style={{ height: '150vh', backgroundColor: bgColor }}></Row> */}
             <Col className="two">
@@ -33,7 +33,7 @@ export default function Top() {
             </h3>
             </Col>
             <Col className="three">
-            <img src="/images/image2_1.png"  style={{ width: '120%', height: 'auto' }} className="ab--photo"/>
+            <img src={`${process.env.PUBLIC_URL}/images/image2_1.png`}  style={{ width: '120%', height: 'auto' }} className="ab--photo"/>
             </Col>
             
             </Row>      

@@ -23,11 +23,11 @@ export default function Featuerd_work() {
             address="https://efbpims.gov.et/"
             Isdone={1} />
             <Image_card img="phalak.png"
-            detail="an online system than links patients with a licensed physiotherapy and delivers personalized care" 
+            detail="An online system than links patients with a licensed physiotherapy and delivers personalized care" 
             // address="https://efbpims.gov.et/"
             Isdone={1}/>
             <Image_card img="buttler.png"
-            detail="a digital precence of a agriculcural and heavy equipment distribution company"
+            detail="A digital precence of a agriculcural and heavy equipment distribution company"
             // address=""
             />
             

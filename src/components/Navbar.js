@@ -5,7 +5,7 @@ export default function Navbar() {
    
     return (
         <nav style={{backgroundColor: "white"}}>
-            <img src="/images/logo.png" className="nav--logo"/>
+            <img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="nav--logo"/>
         </nav>                  
     );
 }
