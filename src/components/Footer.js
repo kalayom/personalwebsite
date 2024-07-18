@@ -1,46 +1,51 @@
+
 import React from "react"
-import Card from 'react-bootstrap/Card';
 import {
+    Container,
     Row,
     Col,
-  } from "reactstrap";
+    Nav,
+    NavLink,
+    Stack
+  } from "react-bootstrap";
 export default function Footer() {
     
 const styles = {
   footer: {
     backgroundColor: '#333',
     color: '#fff',
-    padding: '1rem 0',
-    // position: 'fixed',
-    bottom: 0,
-    width: '100%',
-    textAlign: 'center',
+    
   },
-  container: {
-    maxWidth: '1200px',
-    margin: '0 auto',
-    padding: '0 1rem',
-  },
-  nav: {
-    marginTop: '0.5rem',
-  },
-  link: {
-    color: '#fff',
-    margin: '0 0.5rem',
-    textDecoration: 'none',
-  }
 };
     return (
         <footer style={styles.footer}>
-      <div style={styles.container}>
-        <p>&copy; 2024 Kalayom. All rights reserved.</p>
-        <nav style={styles.nav}>
-          <div>Phone Number: <b>+91 8347821722</b> </div>
-          <div>Email: <b>abrhamgebremedhin8@gmail.com</b>  </div>
-           
-          <a href="https://www.linkedin.com/in/abrham-geberemdhin/" style={styles.link}>Linkedin : https://www.linkedin.com/in/abrham-geberemdhin/</a>
-        </nav>
-      </div>
+      <Container>
+        <Row>
+          <Col >
+          <Stack>
+          <img src={`${process.env.PUBLIC_URL}/images/logo.png`} 
+          alt="Company logo" className="nav--logo"/>
+          <h2 style={{color: "white"}}> Company Name</h2>
+          <p style={{color: "white"}}> Company Tag line</p>
+          </Stack>
+          
+          </Col>
+          <Col>
+          </Col>
+          <Col>
+          <Stack>
+          <Nav className="flex-colums fs-5">
+           Contact Information    
+            <NavLink href="#" style={{color: "white"}}>Email : kalayom13@gmail.com</NavLink>
+            <NavLink href="#" style={{color: "white"}}>Phone Number :+91 8347821722</NavLink>
+            <NavLink href="https://www.linkedin.com/in/abrham-geberemdhin/" style={{color: "white"}}>Linkedin : /abrham-geberemdhin/</NavLink>
+            </Nav>
+            </Stack>
+          </Col>
+          
+        </Row>
+
+      </Container>
     </footer>
     )
 }

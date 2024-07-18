@@ -7,13 +7,13 @@ import Card from 'react-bootstrap/Card';
 export default function Simple_card(data) {
 
   return (
-        <Card style={{ width: '20rem', padding: '1rem', marginBottom: '5rem' }} className='image--card'>
+        <Card className='simple--card'>
         {/* <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/featured/phalak.png`}  /> */}
-        <Card.Body>
+        <Card.Body style={{paddingLeft:"2px",paddingRight:"2px"}}> 
             
-            <Card.Text className='testimonial--text'>
+            <p className='testimonial--text'>
             “{data.statement}”.
-            </Card.Text>
+            </p>
             <div className='testimonial--div' >
 
             <img src={`${process.env.PUBLIC_URL}/images/star.png`}  className="testimonial--star"/>

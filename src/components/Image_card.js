@@ -12,13 +12,13 @@ export default function Image_card(data) {
   };
 
 return (
-    <Card style={{ width: '40rem', padding: '1rem', marginBottom: '5rem',marginRight: '3rem' }} >
-      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/featured/${data.img}`} className='image--card' />
-      <Card.Body>
+  <Card className='feature_card'>
+      <img variant="top" src={`${process.env.PUBLIC_URL}/images/featured/${data.img}`} className='image--card' />
+      <Card.Body style={{paddingLeft: "1px",paddingRight: "1px", }}>
         {/* <Card.Title>Card Title</Card.Title> */}
-        <Card.Text>
+        <p className="image_card_detal">
           {data.detail}
-        </Card.Text>
+        </p>
         {data.Isdone ? <Button onClick={() => openInNewTab(data.address)} variant="primary" >Visit</Button> : <Button variant="primary" disabled>Inprogress</Button>}
         {/* <Button variant="primary" disabled>Visit</Button> */}
       </Card.Body>

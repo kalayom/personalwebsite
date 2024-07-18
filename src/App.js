@@ -14,13 +14,14 @@ export default function App() {
     
     
     return (
-        <div>
+        <div className="main-div">
             <div className="page-content">
 				<Navbar />
-                <Top />
-				<div className="content-wrapper">
                 
+				<div className="content-wrapper">
+               
                         <div className="homepage-container">
+                        <Top />
                             {/* <Test /> */}
                             <h4 className="skills"> I am Proficient in </h4> 
                             <Auto_scroll />

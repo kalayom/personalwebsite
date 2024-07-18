@@ -9,7 +9,7 @@ export default function Popup_basic() {
     return (
         <div >
             
-            <Card style={{ width: '56rem' , height:'16rem'}} >
+            <Card >
         <Card.Body>
           <h3 className="contact-Text">
           Contact me with 
@@ -20,7 +20,7 @@ export default function Popup_basic() {
           </h5>
           <h5 style={{paddingTop:'15px',textAlign: "center"}}>
           <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/contact/email.png`} className='image--contact' />
-             : abrhamgebremedhin8@gmail.com
+             : kalayom13@gmail.com
           </h5>
           <h5 style={{paddingTop:'15px',textAlign: "center"}}>
           <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/contact/telegram.png`} className='image--contact2' />

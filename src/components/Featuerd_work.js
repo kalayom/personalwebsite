@@ -17,19 +17,26 @@ export default function Featuerd_work() {
     return (
          
             <Row className="one">
-            <Image_card
+              <Col xs={12} sm={12} md={6} lg={4}>
+              <Image_card
             img="efbpims.png"
             detail="Government managed directory for Food, Beverage & Pharmaceutical goods manufactured in Ethiopian"
             address="https://efbpims.gov.et/"
             Isdone={1} />
+              </Col>
+            <Col xs={12} sm={12} md={6} lg={4} >
             <Image_card img="phalak.png"
             detail="An online system than links patients with a licensed physiotherapy and delivers personalized care" 
-            // address="https://efbpims.gov.et/"
+            address="https://kalayom.me/"
             Isdone={1}/>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={4}>
             <Image_card img="buttler.png"
             detail="A digital precence of a agriculcural and heavy equipment distribution company"
             // address=""
             />
+            </Col>
+           
             
             </Row>
     )

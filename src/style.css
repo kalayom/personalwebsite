@@ -1,6 +1,10 @@
+/* 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
+} */
+
 
 /* body {
     margin: 0;
@@ -12,7 +16,8 @@ body{
     background-color: rgb(199, 210, 245);
     height: 100vh;
     font-family: 'Inter', sans-serif;
-}
+    overflow-x: hidden;
+    }
 
 nav {
     height: 70px;
@@ -92,29 +97,6 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-}
-
-.contact-card {
-    flex-basis: 225px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 13px;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-.contact-card > img {
-    height: 200px;
-    align-self: center;
-    border-radius: 5px;
-    object-fit: cover;
-}
-
-.contact-card > h3 {
-    font-weight: 700;
-    font-size: 18px;
 }
 
 .info-group {

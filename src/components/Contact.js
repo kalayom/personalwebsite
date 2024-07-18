@@ -18,13 +18,13 @@ export default function Contact() {
         <Row className="contact-div">
             <Col></Col>
             <Col>
-            <Card style={{ width: '30rem' , height:'9rem'}} >
-            <Card.Body>
-              <Card.Text className="contact-Text">
+            <Card className="contact-card" >
+            <Card.Body style={{paddingLeft:"2px",paddingRight:"2px"}}>
+              <p className="contact-text">
               Do you like what you see
-              </Card.Text>
+              </p>
               <div className="contact-button">
-            
+             
               <Popup trigger=
                     {<Button> Let Us talk </Button>} 
                     modal nested>
