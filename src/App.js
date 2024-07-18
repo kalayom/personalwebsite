@@ -9,6 +9,7 @@ import Card from "./components/Card"
 import Auto_scroll from "./components/Auto_scroll"
 import data from "./data.js" 
 import Contact from "./components/Contact" 
+import "semantic-ui-css/semantic.min.css";
 
 export default function App() {
     
@@ -30,6 +31,7 @@ export default function App() {
                             <Featuerd_work />
                             <h4 className="skills2"> Clients Testimonials </h4> 
                             <Testimonial />
+                            {/* <Email_app /> */}
                             
                             </div>
                            

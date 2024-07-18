@@ -54,17 +54,3 @@ export default function Popup_basic() {
 // import { Container, Row, Col } from 'react-bootstrap';
 
          
-        <Row className="contact-div">
-            <Col></Col>
-            <Col>
-            <Card style={{ width: '50rem' , height:'20rem'}} >
-        <Card.Body>
-          <Card.Text className="contact-Text">
-          Do you like what you see
-          </Card.Text>
-        </Card.Body>
-      </Card>
-            </Col>
-            <Col></Col>
-           
-        </Row>

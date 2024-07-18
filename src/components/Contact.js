@@ -2,6 +2,7 @@ import React from "react"
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Popup_basic from './Popup_basic.js';
+import Email_app from "./Email_app" 
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import {
@@ -36,7 +37,8 @@ export default function Contact() {
                         //         </div>
                         //     </div>
                         // )
-                        <Popup_basic />
+                        // <Popup_basic />
+                        <Email_app />
                     }
                 </Popup>
               
