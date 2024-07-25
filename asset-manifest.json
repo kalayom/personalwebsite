@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.15a22205.css",
-    "main.js": "/personalwebsite/static/js/main.a1bead8b.js",
+    "main.css": "/personalwebsite/static/css/main.b05b0641.css",
+    "main.js": "/personalwebsite/static/js/main.d8147e25.js",
     "static/media/brand-icons.svg": "/personalwebsite/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/personalwebsite/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/outline-icons.svg": "/personalwebsite/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
@@ -19,11 +19,11 @@
     "static/media/outline-icons.woff": "/personalwebsite/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/personalwebsite/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/personalwebsite/index.html",
-    "main.15a22205.css.map": "/personalwebsite/static/css/main.15a22205.css.map",
-    "main.a1bead8b.js.map": "/personalwebsite/static/js/main.a1bead8b.js.map"
+    "main.b05b0641.css.map": "/personalwebsite/static/css/main.b05b0641.css.map",
+    "main.d8147e25.js.map": "/personalwebsite/static/js/main.d8147e25.js.map"
   },
   "entrypoints": [
-    "static/css/main.15a22205.css",
-    "static/js/main.a1bead8b.js"
+    "static/css/main.b05b0641.css",
+    "static/js/main.d8147e25.js"
   ]
 }
